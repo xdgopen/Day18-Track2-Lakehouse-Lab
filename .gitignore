@@ -10,5 +10,11 @@ derby.log
 .venv/
 *.egg-info/
 _lakehouse/
+# Keep the four assessed notebooks: submissions must preserve their output cells.
 notebooks/*.ipynb
+!notebooks/01_delta_basics.ipynb
+!notebooks/02_optimize_zorder.ipynb
+!notebooks/03_time_travel.ipynb
+!notebooks/04_medallion.ipynb
 notebooks-spark/*.ipynb
+.jupyter_home/
